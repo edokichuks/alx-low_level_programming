@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
 *main - main block
-*Decription: Write a program that prints prints possible combinations of two-digit numbers.
+
 *Return: 0
 */
 int main(void)
@@ -18,11 +18,10 @@ while (c <= 98)
 f_d = (c / 10 + '0');
 l_d = (c % 10 + '0');
 c2 = 0;
-while(c2 <= 99)
+while (c2 <= 99)
 {
 f_d2 = (c2 / 10 + '0');
 l_d2 = (c2 % 10 + '0');
-
 if (c < c2) 
 {
 putchar(f_d);
