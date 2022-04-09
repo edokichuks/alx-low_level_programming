@@ -2,7 +2,6 @@
 #include <stdlib.h>
 /**
 *main - main block
-*Decription: task12 
 *Return: 0
 */
 int main(void)
