@@ -2,7 +2,6 @@
 #include <stdlib.h>
 /**
 *main - main block
-*Decription: Write a program that prints all possible diff*combination of two digits
 *Return: 0
 */
 int main(void)
