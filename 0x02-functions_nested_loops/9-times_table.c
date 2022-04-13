@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 *times_table - prints times table
-*Return: void 
+*Return:void 
 */
 void times_table(void)
 {
@@ -34,8 +34,8 @@ _putchar(',');
 _putchar(' ');
 }
 b++;
+}
 _putchar('\n');
 a++;
-}
 }
 }
