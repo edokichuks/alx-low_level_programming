@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-*sum of multiples of 3
+*main - main block
+*Description: sum of multiples of 3
 *Return: 0
 */
 int main(void)
