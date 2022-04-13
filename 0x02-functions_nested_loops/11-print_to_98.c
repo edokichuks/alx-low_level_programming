@@ -14,9 +14,9 @@ n++;
 }
 while (n > 98)
 {
-print("%i, ",n);
+printf("%i, ",n);
 n--;
 }
 printf("98");
-putchar("\n");
+putchar('\n');
 }
