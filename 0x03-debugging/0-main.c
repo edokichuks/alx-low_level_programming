@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-*Description:Test function for positive or negeative
-*Return: 0
+* main - eTst function for positive or negeative
+* Return: 0
 */
 int main(void)
 {
