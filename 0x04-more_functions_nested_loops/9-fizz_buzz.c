@@ -4,6 +4,7 @@
 /**
  * main - printthe number from 1 to 100 followed by a new line
  * for five times
+ * decription: fiund this now
  * Retrun: Always 0 (Success)
  */
 int main(void)
@@ -11,7 +12,6 @@ int main(void)
 	int i;
 
 	for (i = 1; i <= 100; i++)
-	
 	{
 		if (i % 3 == 0 && i % 5 != 0)
 		{
