@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - draws a digonal line on the terminal
- * @n: number od times the character 
+ * @n: number od times the character
  */
 void print_diagonal(int n)
 {
