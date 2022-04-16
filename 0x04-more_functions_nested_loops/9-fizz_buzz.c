@@ -1,11 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 
-/**k
+/**
  * main - printthe number from 1 to 100 followed by a new line
  * for five times
- * decription: fiund this now
- * @i: this is here
+ * decription: fiun this now
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -18,7 +17,7 @@ int main(void)
 		if (i % 3 == 0 && i % 5 != 0)
 		{
 			printf(" Fizz");
-		I else if (i % 5 == 0 && i % 3 != 0)
+		} else if (i % 5 == 0 && i % 3 != 0)
 		{
 			printf(" Buzz");
 		} else if (i % 3 == 0 && i % 5 == 0)
