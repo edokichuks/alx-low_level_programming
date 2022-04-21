@@ -5,7 +5,7 @@
  * Return: void 
  */
 
-void reset_to_98.c(ibt *n)
+void reset_to_98(int *n)
 {
 	*n = 98;
 }
