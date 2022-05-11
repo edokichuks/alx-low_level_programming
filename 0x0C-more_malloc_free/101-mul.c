@@ -25,14 +25,12 @@ for (i = 0; argv[2][i]; i++)
 		isn2 = 0;
 		break;
 	}
-
 if (isn1 == 1 || isn2 == 1)
 {
 printf("0\n");
 exit(0);
 }
 }
-
 /**
  * _initialize_array - set memery to zero in a new array
  * @ar: char array.
@@ -48,7 +46,6 @@ for (i = 0; i < lar; i++)
 ar[lar] = '\0';
 return (ar);
 }
-
 /**
  * _checknum - determines length of the number
  * and checks if number is in base 10.
@@ -67,7 +64,6 @@ for (ln = 0; argv[n][ln]; ln++)
 	}
 return (ln);
 }
-
 /**
  * main - Entry point.
  * program that multiplies two positive numbers.
@@ -78,7 +74,6 @@ return (ln);
 int main(int argc, char *argv[])
 {
 int ln1, ln2, lnout, add, addl, i, j, k, ca;
-
 char *nout;
 
 if (argc != 3)
@@ -105,7 +100,6 @@ for (; k >= 0; k--, i--)
 	if (j < 0)
 	{
 		if (nout[0] != '0')
-
 			break;
 		lnout--;
 		free(nout), nout = malloc(lnout + 1), nout = _initialize_array(nout, lnout);
