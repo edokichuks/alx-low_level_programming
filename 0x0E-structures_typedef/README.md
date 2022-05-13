@@ -1,1 +1,1 @@
- THis is the 0x0E-structures_typedef folder
+this is the second readme file
