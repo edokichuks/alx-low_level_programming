@@ -3,32 +3,23 @@
 /**
  * sum_them_all - sum of variadic variable
  * @n: const
- * Return: int
+ * @...: a variable number of parameters to cal the sum of
+ * Return: If n == 0 -0.
  */
 
 int sum_them_all(const unsigned int n, ...)
 {
-	unsigned int i;
-	va_list list;
-	double sum = 0;
+	va_list nums;
+	unsigned int index, sum = 0;
+	
+	va_start(nums, n);
 
-	if (n == 0)
+	for (index = 0; index < n; index++)
 	{
-		return (0);
+		sum += var_arg(nums, int);
 	}
 
-	if (n == 0)
-	{
-		return (0);
-	}
-
-	va_start(list, n);
-
-	for (i = 0; i < n; i++)
-	{
-		sum += var_arg(list, int);
-	}
-
-	va_end(list);
+	va_end(num);
+	
 	return (sum);
 }
