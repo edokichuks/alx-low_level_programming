@@ -17,7 +17,7 @@ int sum_them_all(const unsigned int n, ...)
 
 	for (index = 0; index < n; index++)
 	{
-		sum += var_arg(nums, int);
+		sum += va_arg(nums, int);
 	}
 
 	va_end(num);
