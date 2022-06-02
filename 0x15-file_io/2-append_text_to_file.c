@@ -3,17 +3,15 @@
 #include <stdlib.h>
 
 /**
- * create_file - Creates a file with read and write permissions for user if the
- * file does not exist. Truncates the file if it exists. Fills the file with
- * the contents of text_content.
+ * append_text_to_file - Appends text at the end of a file.
  *
- * @filename: Name of the file that is to be created if it doesn't exist.
+ * @filename: Name of the file that will have text appended to.
  * @text_content: Content of the text.
  *
  * Return: 1 if success, otherwise -1.
  */
 
-int create_file(const char *filename, char *text_content)
+int append_text_to_file(const char *filename, char *text_content)
 {
 	ssize_t file;
 	ssize_t b_write;
@@ -22,7 +20,7 @@ int create_file(const char *filename, char *text_content)
 	if (!filename)
 		return (-1);
 
-	file = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
+	file = open(filename, O_APPEND | O_WRONLY);
 	if (file == -1)
 		return (-1);
 
