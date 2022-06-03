@@ -1,3 +1,8 @@
+/*
+ * File: 3-cp.c
+ * Auth: izi martins
+ */
+
 
 #include <unistd.h>
 #include <stdlib.h>

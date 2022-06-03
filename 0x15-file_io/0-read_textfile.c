@@ -1,3 +1,8 @@
+/*
+ * File: 0-read_textfile.c
+ * Auth: izi martins
+ */
+
 #include <fcntl.h>
 #include <unistd.h>
 #include <stdlib.h>

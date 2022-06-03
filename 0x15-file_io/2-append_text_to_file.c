@@ -1,3 +1,9 @@
+/*
+ * File: 2-append_text_to_file.c
+ * Auth: izi martins
+ */
+
+
 #include <fcntl.h>
 #include <unistd.h>
 #include <stdlib.h>
